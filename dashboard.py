@@ -10,7 +10,7 @@ import os
 st.title("Dashboard de Funcionários")
 
 # Caminho do arquivo CSV na mesma pasta
-csv_file = 'Employee_Data.csv'
+csv_file = 'employee_performance.csv'
 
 # Verifica se o arquivo CSV existe na mesma pasta
 if os.path.exists(csv_file):
